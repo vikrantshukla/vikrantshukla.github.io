@@ -1,0 +1,204 @@
+/* 
+ Theme Name:     Bakega
+ Author:         Bakega Team
+ Author URI:     http://bakega.com/
+ Template:       Divi
+ Version:        1.0
+ Description:   A Child Theme built using the elegantmarketplace.com Child theme maker
+Developed by Andrew Palmer for Elegant Marketplace www.elegantmarketplace.com Free to use and duplicate as many times as you like
+ Wordpress Version: 4.8.1
+*/ 
+
+
+/* ----------- PUT YOUR CUSTOM CSS BELOW THIS LINE -- DO NOT EDIT ABOVE THIS LINE --------------------------- */ 
+
+body {font-family: 'Muli', sans-serif;}
+
+    /*Disable Header*/
+    #main-header { display:none; }
+    #page-container { 
+    padding-top:0px !important; 
+    margin-top:-1px !important 
+}
+
+    .lc_pagewrap {
+    box-shadow: 0 0 4px 10px black;
+}
+    
+    /* Headings */
+    h1, h2, h3, h4, h5, h6 {
+        /*color: #1fba96;*/
+        color:#40b0b5;
+    }
+    
+    h1 {
+        font-size: 70px;
+        line-height: 73px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        line-height: 33px;
+    }
+
+    /* Back to top */
+    .lc_to-top h4 {margin-top: 0;}
+    .lc_to-top .et_pb_main_blurb_image {margin-bottom:0;}
+
+    /* Person bubble image */
+    .lc_portrait_bubble img {
+        max-width: 150px;
+        border-radius: 50%;
+        border: 7px solid rgba(255,255,255,.1);
+        padding: 2px;
+    }
+    
+    .et_pb_main_blurb_image {margin-bottom: 10px;}
+
+
+/* SOCIAL NAV */
+    
+    /* General Styling*/
+    #lc_social ul {list-style-type:none;}
+    #lc_social ul li {display: inline; margin-right: 1em;}
+    #lc_social .et-social-icon a {color: rgba(255,255,255,.2);}
+    #lc_social .et-social-icon a:hover {color: rgba(255,255,255,.4);}
+    
+    /* Right column Styling*/
+    #lc_content #lc_social .et-social-icon a {color: rgba(0,0,0,.2);}
+    #lc_content #lc_social .et-social-icon a:hover {color: rgba(0,0,0,.4);}
+    
+
+/* INTERNAL NAV */
+
+    .lc_internal_nav ul {
+        list-style-type:none;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+
+    .lc_internal_nav ul li a {
+        padding: 1.4em 2em;
+        margin-bottom: 5px;
+        max-width: 100%;
+        border: 1px solid rgba(255,255,255,.2);
+        border-radius: 3px;
+        color: #FFFFFF;
+        display: block;
+        text-transform: uppercase;
+    }
+    
+    .lc_internal_nav ul li a:hover {background: rgba(255,255,255,.4);}
+    
+    a.lc_altbutton {
+        background: #20585a;
+        border: 1px solid #40b0b5 !important;
+    }
+    
+    a:hover.lc_altbutton {
+        border: 1px solid rgba(255,255,255,.2) !important;
+        background: rgba(255,255,255,.4);
+    }
+
+
+/* TIMELINE */
+
+    /* General Timeline Styling */
+    .timeline {
+      list-style: none;
+    }
+    .timeline > li {
+      margin-bottom: 60px;
+    }
+    
+    ul.timeline {list-style-type:none;}
+    
+
+/* TAB MODULE */
+
+    .et_pb_all_tabs {padding: 24px 0;}
+    ul.et_pb_tabs_controls {border: none; background-color: transparent;}
+    .et_pb_tabs {border: none;}
+    .et_pb_tabs_controls li {padding: 5px 30px 10px; border-right: none;}
+    .et_pb_tabs_controls li.et_pb_tab_active {bottom: 0; border-bottom: 2px #ccc solid;}
+    .et_pb_counter_container {margin-bottom: 25px;}
+
+
+/* CONTACT */
+
+    /* style the contact sections */
+    .lc_phone h4 {margin-top: .5em!important;}
+    
+
+/* FOOTER */
+
+    /* Remove Spacing at bottom of page */
+    #lc_cv.et_pb_section {padding: 0!important;}
+    
+    /* Links */
+    a {color: #40b0b5;}
+    a:hover {color: #22252c;}
+
+
+/* MEDIA QUERIES */
+
+    /* Styling for Desktop */
+    @media ( min-width : 640px ){
+        .timeline > li {
+            overflow: hidden;
+            margin: 0;
+            position: relative;
+        }
+        .timeline-date {
+            width: 130px;
+            float: left;
+            margin-top: 20px;
+        }
+        .timeline-content {
+            width: 75%;
+            float: left;
+            border-left: 3px #40b0b5 solid;
+            padding-left: 30px;
+            /*dwm*/
+            padding-top: 17px;
+        }
+        .timeline-content:before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            background: #40b0b5;
+            position: absolute;
+            left: 126px;
+            top: 24px;
+            border-radius: 100%;
+        }
+    }
+
+    /* Styling for Mobile */
+    @media screen and (max-width: 639px) {
+        
+        /* Internal nav Mobile */
+        .lc_internal_nav ul {
+            list-style-type:none;
+            margin: 0 auto;
+            width: 80%;
+            padding: 0 0 23px 0;
+        }  
+        
+        /* Timeline Mobile */
+        .timeline > li {margin-bottom: 0;}
+        ul.timeline {padding: 0 0 23px 0;}
+    
+        /* Headings */
+        h1 {font-size: 35px; line-height: 37px;}
+        .lc_name h2, .lc_role h2 {font-size: 20px!important; line-height: 22px;}
+        
+        /* Person bubble image */
+        .lc_portrait_bubble img {
+            max-width: 120px;
+            border-radius: 50%;
+            border: 7px solid rgba(255,255,255,.1);
+            padding: 2px;
+        }
+    }
