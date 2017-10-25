@@ -92,8 +92,8 @@ body {font-family: 'Muli', sans-serif;}
     .lc_internal_nav ul li a:hover {background: rgba(255,255,255,.4);}
     
     a.lc_altbutton {
-        background: #20585a;
-        border: 1px solid #40b0b5 !important;
+        background: #000000;
+        border: 1px solid #f1f1f1 !important;
     }
     
     a:hover.lc_altbutton {
