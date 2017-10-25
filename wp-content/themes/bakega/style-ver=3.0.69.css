@@ -61,7 +61,7 @@ body {font-family: 'Muli', sans-serif;}
     /* General Styling*/
     #lc_social ul {list-style-type:none;}
     #lc_social ul li {display: inline; margin-right: 1em;}
-    #lc_social .et-social-icon a {color: rgba(255,255,255,.2);}
+    #lc_social .et-social-icon a {color: rgba(255,255,255,.7);}
     #lc_social .et-social-icon a:hover {color: rgba(255,255,255,.4);}
     
     /* Right column Styling*/
@@ -97,7 +97,7 @@ body {font-family: 'Muli', sans-serif;}
     }
     
     a:hover.lc_altbutton {
-        border: 1px solid rgba(255,255,255,.2) !important;
+        border: 1px solid rgba(255,255,255,.6) !important;
         background: rgba(255,255,255,.4);
     }
 
