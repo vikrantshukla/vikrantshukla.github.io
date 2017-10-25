@@ -93,7 +93,7 @@ body {font-family: 'Muli', sans-serif;}
     
     a.lc_altbutton {
         background: #000000;
-        border: 1px solid #f1f1f1 !important;
+        border: 1px solid #fff !important;
     }
     
     a:hover.lc_altbutton {
